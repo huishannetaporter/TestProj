@@ -607,6 +607,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nap.TestProj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -700,6 +701,7 @@
 				BF89F4881EBA1DD300AE079C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF89F4891EBA1DD300AE079C /* Build configuration list for PBXNativeTarget "TestProjTests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +710,7 @@
 				BF89F48B1EBA1DD300AE079C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF89F48C1EBA1DD300AE079C /* Build configuration list for PBXNativeTarget "TestProjUITests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +719,7 @@
 				BF89F48E1EBA1DD300AE079C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
