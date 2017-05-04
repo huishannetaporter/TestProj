@@ -1,3 +1,4 @@
 language: objective-c
 
-xcodebuild -workspace TestProj.xcworkspace -scheme TestProj -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script:
+ - xcodebuild -workspace TestProj.xcworkspace -scheme TestProj -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
